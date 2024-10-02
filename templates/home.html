@@ -15,5 +15,9 @@
     {% else %}
         <p>Keine Projekte gefunden.</p>
     {% endif %}
+    <form action="/search" method="get">
+        <input type="text" name="q" placeholder="Suche...">
+        <input type="submit" value="Suchen">
+    </form>
 </body>
 </html>

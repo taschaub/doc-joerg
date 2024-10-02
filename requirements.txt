@@ -1,0 +1,11 @@
+Flask
+Flask_SQLAlchemy
+Flask-Migrate
+SQLAlchemy
+PyPDF2
+python-docx
+openpyxl
+whoosh
+watchdog
+spacy
+rake-nltk
