@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Dokumentenmanagement-System</title>
+</head>
+<body>
+    <h1>Liste der Projekte</h1>
+    {% if projects %}
+        <ul>
+        {% for project in projects %}
+            <li>{{ project.name }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>Keine Projekte gefunden.</p>
+    {% endif %}
+</body>
+</html>
